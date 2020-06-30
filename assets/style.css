@@ -116,6 +116,11 @@ body {
   position: absolute;
   align-self: flex-end;
 }
+
+#text-input {
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
 #submit-button {
   margin-top: 15px;
 }
