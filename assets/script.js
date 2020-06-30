@@ -1,6 +1,6 @@
 const wordCount = (inputText, wordLen) => {
   // RegEx searches for any special characters or capital letters (for camel case)
-  const wordArr = inputText.split(/[A-Z&\/\\ #,+()$~%.' ":;*?<>{}]/g);
+  const wordArr = inputText.split(/[A-Z&\/\\ #,+()$~%.'\= ":;*?<>{}]/g);
   console.log(wordArr);
   const formattedArr = [];
   wordArr.forEach((el) => {
