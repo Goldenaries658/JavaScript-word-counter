@@ -1,8 +1,8 @@
-const wordCount = (inputText, wordLen) => {
+const wordCount = (inputText, minWordLen) => {
   // RegEx searches for any special characters or capital letters (for camel case)
   const wordArr = inputText.split(/[A-Z&\/\\ #,+()$~%.'\= ":;*?<>{}\-\n\|]/g);
   const formattedArr = wordArr.filter(
-    (word) => word !== "" && word.length >= wordLen - 1
+    (word) => word !== "" && word.length - 1 >= minWordLen
   );
   return formattedArr.length;
 };
