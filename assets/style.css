@@ -107,6 +107,10 @@ body {
   flex-flow: column;
 }
 
+#main-container, .form-control {
+background: #f7f7f990;
+}
+
 #headline {
   display: inline;
   font-size: 1.5rem;
